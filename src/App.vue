@@ -3,10 +3,10 @@
       <div class="dark-theme-container">
         <label for="dark-theme-checkbox">Modo oscuro</label>
         <input type="checkbox" v-model="darkMode" id="dark-theme-checkbox" />
+        <h1>My Notes</h1>
       </div>
     <div class="page">
-      <div class="container">
-        <h1>toDo App</h1>
+      <div class="container">        
         <div class="search-bar">
           <label for="search">Buscar</label>
           <input
@@ -219,8 +219,10 @@ html {
 }
 
 h1 {
-  margin: 20px 0;
   text-align: center;
+  font-size: 2rem;
+  padding: 0;
+  margin: 10px 0 0 0;
 }
 
 .dark-theme-container {
@@ -231,7 +233,7 @@ h1 {
 
 .container {
   max-width: 1024px;
-  margin-top: 50px;
+  margin-top: 20px;
   background-color: white;
   box-shadow: 12px 12px 2px 1px rgb(211, 211, 211);
   padding: 35px;
@@ -266,11 +268,13 @@ h1 {
   padding: 3px;
   font-size: 0.85rem;
   width: 100%;
+  cursor: pointer;
 }
 
 .remove-button {
-  color: white;
-  background-color: rgb(39, 36, 36);
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  background-color: transparent;
 }
 
 .add-button {
@@ -319,7 +323,8 @@ thead th {
 }
 
 .dark-theme .remove-button {
-    color: black;
-  background-color: rgb(191, 184, 184);
+  color: rgb(253, 253, 253);
+  text-decoration: underline;
+  background-color: transparent;
 }
 </style>
