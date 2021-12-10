@@ -2,6 +2,10 @@
 
 Just a start in Vue
 
+## Netlify
+
+[Netlify](https://pensive-euclid-77662b.netlify.app/)
+
 ## Project setup
 ```
 npm install
