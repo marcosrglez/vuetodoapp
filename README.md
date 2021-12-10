@@ -1,4 +1,6 @@
-# mi-proyecto
+# My Vue todo app
+
+Just a start in Vue
 
 ## Project setup
 ```
@@ -19,6 +21,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
